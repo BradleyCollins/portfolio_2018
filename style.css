@@ -52,7 +52,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
   height: calc(100vh - 70px);
-  background-color: rgb(253, 231, 205);
+  /* background-color: rgb(253, 231, 205); */
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #banner-content {
@@ -75,6 +78,7 @@
   grid-gap: 20px;
   grid-template-columns: 100px 300px 1fr 100px;
   grid-template-rows: 50px 300px;
+  background-color: #f6f8fa;
 }
 
 #about h2 {
@@ -89,6 +93,7 @@
 #about img {
   grid-column-start: 2;
   grid-row-start: 2;
+  width: 100%;
 }
 
 #projects {
@@ -171,6 +176,7 @@
   grid-gap: 30px 10px;
   grid-template-columns: 100px repeat(5, 1fr) 100px;
   padding: 50px 0px 50px 0px;
+  background-color: #f6f8fa;
 }
 
 #contact h2 {
