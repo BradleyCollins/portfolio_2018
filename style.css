@@ -74,6 +74,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 100px 300px 1fr 100px;
+  grid-template-rows: 50px 300px;
 }
 
 #about h2 {
@@ -94,8 +95,9 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 100px repeat(4, 1fr) 100px;
-  grid-template-rows: auto;
+  grid-template-rows: 50px 300px;
   background-color: rgb(253, 231, 205);
+  padding: 20px 0px 50px 0px;
 }
 
 #projects h2 {
@@ -163,6 +165,66 @@
 .fa-th {
   font-size: 50px;
 }
+
+#contact {
+  display: grid;
+  grid-gap: 30px 10px;
+  grid-template-columns: 100px repeat(5, 1fr) 100px;
+  padding: 50px 0px 50px 0px;
+}
+
+#contact h2 {
+  grid-column-start: 2;
+}
+
+.social1 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  text-align: center;
+  color: #252a2e;
+  font-size: 80px;
+}
+
+.social2 {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  text-align: center;
+  color: #0077b5;
+  font-size: 80px;
+}
+
+.social3 {
+  grid-column-start: 5;
+  grid-row-start: 2;
+  text-align: center;
+  color: #2a2828;
+  font-size: 80px;
+}
+
+.social4 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  text-align: center;
+  color: #3a5998;
+  font-size: 80px;
+}
+
+.social5 {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  text-align: center;
+  color: #1ca1f2;
+  font-size: 80px;
+}
+
+.social6 {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  text-align: center;
+  font-size: 80px;
+  color: #ce9116;
+}
+
 footer {
   /* position: fixed; */
   vertical-align: middle;
@@ -210,7 +272,7 @@ footer {
 }
 
 /* This is here for fun */
-h2 {
+/* h2 {
   border-bottom: 1px solid #453886;
   color: #453886;
   padding-bottom: 0.25em;
@@ -225,4 +287,4 @@ h2:hover {
   border-bottom: 0;
   padding-bottom: 0.3em;
   text-decoration: none;
-}
+} */
